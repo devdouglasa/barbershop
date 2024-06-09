@@ -1,3 +1,4 @@
+// ignore: unused_import
 import 'package:barbershop/pages/CadastroLogin.dart';
 import 'package:barbershop/pages/LoginPage.dart';
 import 'package:flutter/material.dart';
