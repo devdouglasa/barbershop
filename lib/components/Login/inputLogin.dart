@@ -18,7 +18,7 @@ class InputLogin extends StatelessWidget {
             ),
             label: Padding(
               padding: EdgeInsets.only(left: 10),
-              child: Text("Digite seu login"),
+              child: Text("Digite seu email"),
             ),
             border: OutlineInputBorder(
                 borderSide: BorderSide.none,
