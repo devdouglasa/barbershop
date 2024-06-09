@@ -29,6 +29,6 @@ class InputPassword extends StatelessWidget {
             )
         ),
       ),
-    );;
+    );
   }
 }
