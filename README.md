@@ -1,16 +1,26 @@
-# barbershop
+<div align="center">
+    <h1>📱 Barber Shop App</h1>
+    <h3>App para Barbearia</h3>
+    <br>
+</div>
 
-Barber Shop App
+<div align="center">
+    <h2>▶ Tecnologias</h2>
+    <br>
+    <image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-plain-wordmark.svg" width=50 /> &nbsp&nbsp
+    <image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width=50 /> &nbsp&nbsp
+    <image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" width=50 />
+</div>
 
-## Getting Started
+<br>
 
-This project is a starting point for a Flutter application.
+<div align="center">
+    <h2>▶ Imagens do Projeto</h2> <br>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+    <image src="login_image.png" width=200 />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <image src="cadastro_image.png" width=200 />
+</div>
