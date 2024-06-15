@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ButtonLogin extends StatelessWidget {
-  const ButtonLogin({super.key});
+  ButtonLogin({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,9 @@ class ButtonLogin extends StatelessWidget {
           fixedSize: const Size(500, 60),
           elevation: 0,
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.popAndPushNamed(context, '/home');
+        },
         child: const Text(
           "ENTRAR",
           style: TextStyle(color: Colors.white, letterSpacing: 2),
