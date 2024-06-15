@@ -1,6 +1,7 @@
 // ignore: unused_import
-import 'package:barbershop/pages/CadastroLogin.dart';
+import 'package:barbershop/pages/RegisterPage.dart';
 import 'package:barbershop/pages/LoginPage.dart';
+import 'package:barbershop/pages/UserHomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      initialRoute: '/login',
+      routes: {
+        '/login': (context) => const LoginPage(),
+        '/register': (context) => const RegisterPage(),
+        '/home': (context) => const UserHome(),
+      },
     );
   }
 }
