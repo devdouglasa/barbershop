@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+// Importações de Componentes
+import 'package:barbershop/components/login/buttonLogin.dart';
+import 'package:barbershop/components/login/inputLogin.dart';
+import 'package:barbershop/components/login/inputPassword.dart';
 
-import '../components/Login/inputLogin.dart';
-import '../components/Login/inputPassword.dart';
-import 'package:barbershop/components/Login/buttonLogin.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -31,9 +32,9 @@ class _LoginPageState extends State<LoginPage> {
                 height: 150,
               ),
             ),
-            const InputLogin(),
+            InputLogin(),
             const InputPassword(),
-            const ButtonLogin(),
+            ButtonLogin(),
             Padding(
               padding: const EdgeInsets.only(top: 40),
               child: Row(
@@ -42,7 +43,9 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   const Text("Ainda não possui uma conta?"),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/register');
+                    },
                     child: Text(
                       "Cadastre-se",
                       style: TextStyle(color: Colors.lightBlue[900]),
