@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 
 class InputLogin extends StatelessWidget {
-  const InputLogin({super.key});
+  InputLogin({super.key});
+  final TextEditingController loginController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 25, right: 25),
       child: TextFormField(
+        controller: loginController,
+        onChanged: (_) {
+          print(loginController.text);
+        },
         decoration: const InputDecoration(
             contentPadding: EdgeInsets.all(20),
             fillColor: Colors.lightBlueAccent,
