@@ -22,5 +22,6 @@
 
 <div align="center">
     <image src="login_image.png" width=200 />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <image src="cadastro_image.png" width=200 />
+    <image src="cadastro_image.png" width=200 />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <image src="home_image.png" width=200 />
 </div>
