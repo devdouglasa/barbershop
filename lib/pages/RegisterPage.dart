@@ -44,7 +44,9 @@ class RegisterPage extends StatelessWidget {
                       },
                       child: Text(
                         "Faça Login",
-                        style: TextStyle(color: Colors.lightBlue[900]),
+                        style: TextStyle(
+                            color: Colors.lightBlue[900],
+                            fontWeight: FontWeight.bold),
                       ))
                 ],
               ),

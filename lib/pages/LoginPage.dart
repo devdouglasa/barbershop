@@ -5,7 +5,6 @@ import 'package:barbershop/components/login/buttonLogin.dart';
 import 'package:barbershop/components/login/inputLogin.dart';
 import 'package:barbershop/components/login/inputPassword.dart';
 
-
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -48,7 +47,9 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: Text(
                       "Cadastre-se",
-                      style: TextStyle(color: Colors.lightBlue[900]),
+                      style: TextStyle(
+                          color: Colors.lightBlue[900],
+                          fontWeight: FontWeight.bold),
                     ),
                   )
                 ],

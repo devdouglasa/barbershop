@@ -16,7 +16,7 @@ class InputSearch extends StatelessWidget {
             fillColor: Colors.blue[600],
             suffixIcon: const Padding(
               padding: EdgeInsets.only(right: 15),
-              child: Icon(Icons.search, color: Colors.white),
+              child: Icon(Icons.location_searching, color: Colors.white),
             ),
             border: OutlineInputBorder(
               borderSide: BorderSide.none,
