@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CardBarber extends StatelessWidget {
-  const CardBarber({super.key});
+  final String barberName;
+  final String assessmentBarber;
+  const CardBarber(
+      {required this.barberName, required this.assessmentBarber, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,36 +38,39 @@ class CardBarber extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    const Text(
-                      "Barbearia Show",
-                      style: TextStyle(
+                    Text(
+                      barberName,
+                      style: const TextStyle(
                           color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.bold),
                     ),
-                    const Row(
+                    Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.star,
                           color: Colors.orange,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.star,
                           color: Colors.orange,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.star,
                           color: Colors.orange,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.star,
                           color: Colors.orange,
                         ),
-                        Text(
-                          "4.7",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 5),
+                          child: Text(
+                            assessmentBarber,
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
                         )
                       ],
                     ),
